@@ -1,7 +1,7 @@
 // ======= Blynk Template (MUST BE FIRST!) =======
-#define BLYNK_TEMPLATE_ID "TMPL6GDGrOAvk"
-#define BLYNK_TEMPLATE_NAME "HAKU"
-#define BLYNK_AUTH_TOKEN "sJpP8NL9nwgqWNHUMJVMMrFwW8lYVYvG"
+#define BLYNK_TEMPLATE_ID "****"
+#define BLYNK_TEMPLATE_NAME "****"
+#define BLYNK_AUTH_TOKEN "****"
 
 #include <HardwareSerial.h>
 #include <DHT.h>
@@ -16,12 +16,12 @@
 
 // --- Credentials ---
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "NOTE30";
-char pass[] = "25471302";
+char ssid[] = "****";
+char pass[] = "****";
 
 // ======= Telegram Configuration =======
-#define BOTtoken "8330506457:AAEsIn6ZaWomLy7LvjHtPLckchZiyUuzQtg" //  <-- ตรวจสอบว่าถูกต้อง
-#define CHAT_ID "7855304749" //  <-- ตรวจสอบว่าถูกต้อง
+#define BOTtoken "****" //  
+#define CHAT_ID "****" //  
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
@@ -107,7 +107,7 @@ const unsigned long interval = 2000;
 unsigned long lastFilterSave = 0;
 
 // +++ NEW: THINGSPEAK +++
-String thingspeakApiKey = "716UXXR2ZSH1IB2Q"; // 🛑🛑🛑 <-- ใส่ Key ของคุณที่นี่
+String thingspeakApiKey = "****"; // 🛑🛑🛑 <-- ใส่ Key 
 unsigned long lastThingspeakUpdate = 0;
 const unsigned long thingspeakInterval = 20000; // ให้อัปเดตทุก 20 วินาที (ห้ามต่ำกว่า 15)
 
