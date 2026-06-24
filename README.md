@@ -1,4 +1,4 @@
-# HAKU — Air Quality Monitoring and Improvement System (Residential)
+# Air Quality Monitoring and Improvement System (Residential)
 
 This project is firmware for an ESP32-based air quality monitor that reads multiple sensors (PM2.5, CO2, O2, temperature/humidity), controls a fan via relays, sends alerts through Telegram, reports data to ThingsSpeak, and estimates filter usage based on accumulated dust.
 
